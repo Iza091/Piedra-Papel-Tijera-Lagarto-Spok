@@ -4,8 +4,9 @@ function playGame() {
   var result = document.getElementById("result");
   var reverseResult = false; 
 
-
-  if (player1 === player2) {
+  if (player1 === "0" || player2 === "0") {
+    result.textContent = "Seleccione una opción válida";
+  } else  if (player1 === player2) {
     result.textContent = "Ninguno gana, empate";
   } else if (
     (player1 === "1" && player2 === "3") ||
