@@ -1,40 +1,58 @@
 body {
-    font-family: Arial, sans-serif;
-    text-align: center;
-  }
-  
-  h1 {
-    margin-top: 50px;
-  }
-  
-  .game-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin-top: 50px;
-  }
-  
-  .players {
-    margin-top: 20px;
-  }
-  
-  button {
-    margin-top: 20px;
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-  button:hover {
-    background-color: #0069d9;
-  }
-  
-  #result {
-    margin-top: 20px;
-    font-weight: bold;
-  }
-  
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+h1 {
+  margin-top: 50px;
+}
+
+.game-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+.players {
+  margin-top: 20px;
+}
+
+select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  font-size: 16px;
+  width: 150px;
+  cursor: pointer;
+  text-align: center;
+}
+
+select:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0069d9;
+}
+
+#result {
+  margin-top: 20px;
+  font-weight: bold;
+}
